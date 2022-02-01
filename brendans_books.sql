@@ -3,7 +3,7 @@
 --brendanpshea@gmail.com
 
 
-DROP TABLE IF EXISTS "books"
+DROP TABLE IF EXISTS "books";
 CREATE TABLE IF NOT EXISTS "books" (
 	"id"	INTEGER,
 	"title"	TEXT NOT NULL,
