@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS "books" (
 	"lcc"	CHAR,
 	"url"	VARCHAR(100),
 	"words"	INT,
-	"sentences"	SMALLINT,
+	"sentences"	INT,
 	"characters"	BIGINT,
 	"grade_level"	REAL,
 	"popularity"	INTEGER,
