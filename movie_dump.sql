@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS Movie (
 CREATE TABLE IF NOT EXISTS Person (
 	id	CHAR(7),
 	name	VARCHAR(64),
-	dob	DATE,
+	dob_string	VARCHAR(32),
 	pob	VARCHAR(128),
 	PRIMARY KEY(id)
 );
