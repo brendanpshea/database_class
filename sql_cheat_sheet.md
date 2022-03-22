@@ -1,7 +1,7 @@
 # Quick SQL Cheatsheet
 Database and SQL: Course Notes | Brendan Shea, PhD (Brendan.Shea@rctc.edu)
 
-Adapted from ttps://github.com/enochtangg/quick-SQL-cheatsheet/. Available under an MIT license.
+Adapted from https://github.com/enochtangg/quick-SQL-cheatsheet/. Available under an MIT license.
 
 A quick reminder of all relevant SQL queries and examples on how to use them. 
 
