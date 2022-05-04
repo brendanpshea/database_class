@@ -23,7 +23,6 @@ CREATE TABLE MonstersB(
   teacher BOOLEAN
 );
 
-DROP TABLE IF EXISTS LocationsB;
 CREATE TABLE LocationsB(
   location_id INTEGER PRIMARY KEY,
   building_code CHAR(2),
@@ -31,7 +30,6 @@ CREATE TABLE LocationsB(
   capacity INTEGER
 );
 
-DROP TABLE IF EXISTS ClassesB;
 CREATE TABLE ClassesB(
   class_id INTEGER PRIMARY KEY,
   title VARCHAR(20),
@@ -44,7 +42,6 @@ CREATE TABLE ClassesB(
   FOREIGN KEY(instructor_id) REFERENCES MonstersB(monster_id)
 );
 
-DROP TABLE IF EXISTS EnrolledB;
 CREATE TABLE EnrolledB(
   monster_id INTEGER,
   class_id INTEGER,
@@ -53,7 +50,6 @@ CREATE TABLE EnrolledB(
   PRIMARY KEY(monster_id, class_id)
 );
 
-DROP TABLE IF EXISTS AlumniB;
 CREATE TABLE AlumniB(
   monster_id INTEGER PRIMARY KEY,
   FOREIGN KEY(monster_id) REFERENCES MonstersB(monster_id),
